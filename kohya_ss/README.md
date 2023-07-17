@@ -52,6 +52,7 @@ Run this command:
 You can now use kohya_ss GUI. You just need to run these commands:
 
 `export HSA_OVERRIDE_GFX_VERSION=11.0.0`
+
 `python kohya_gui.py "$@"`
 
 ## Step 5 (Option 2):
