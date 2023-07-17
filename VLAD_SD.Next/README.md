@@ -3,7 +3,7 @@
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/)
 
 ## Step 1:
-Clone VLAD's fork of automtic1111.
+Clone VLAD's fork of automatic1111.
 
 Run these commands:
 
