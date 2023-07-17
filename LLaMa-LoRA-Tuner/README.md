@@ -197,3 +197,10 @@ Run this command:
 
 `python app.py --data_dir='./data' --base_model='decapoda-research/llama-7b-hf'`
 
+
+## Note:
+You will get an error about bitsandbytes. You can ignore this.
+
+Also if when you load a model it complains about protobuf, run this command:
+
+`pip install protobuf=3.19.0`
