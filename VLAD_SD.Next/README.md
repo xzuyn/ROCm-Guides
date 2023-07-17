@@ -167,7 +167,7 @@ Run this command:
 `cd ../`
 
 ## Step 19 (Option 2):
-Clone and install PyVision.
+Clone and install PyVision. This can take a while as well.
 
 Run these commands:
 
