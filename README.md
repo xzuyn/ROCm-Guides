@@ -153,4 +153,4 @@ Run this command:
 `sudo apt install git python3-dev python3-venv libjpeg-dev libpng-dev libstdc++-12-dev cmake`
 
 ## Step 26:
-Enjoy.
+Enjoy. You can now follow the other guides in this repo. Just open the folder which has the name of the program you are trying to set up, and read its README.
