@@ -197,7 +197,9 @@ You do so by pressing `CTRL` and `X` to exit.
 Then pressing `Enter` to write the changes.
 
 ## Step 23 (Option 2):
-Run these commands:
+You can now go back into automatic.
+
+Run this commands:
 
 `cd automatic`
 
