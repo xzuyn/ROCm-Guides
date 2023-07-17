@@ -204,3 +204,5 @@ You can now use kohya_ss GUI. You just need to run this command:
 Some features don't work.
 
 Disable `xformers`, and change the optimizer to something other than `AdamW8bit`. I chose `AdamW`.
+
+I've included a known working config for a LoRA. It runs on my 7900 XTX using ROCm 5.6.5.
