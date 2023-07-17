@@ -8,7 +8,7 @@ This is not the original guide. It has been modified to add more steps that *I* 
 Modified: **July 17th, 2023.**
 
 ## Step 0:
-If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/). There are two options, that fork out on step 5. The first you simply download ROCm 5.5 and use it. The second will guide you through manually building ROCm 5.6.5 yourself.
+If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/). There are two options, that fork out on step 5. The first you simply download ROCm 5.5 and use it. The second will guide you through manually building ROCm 5.6 yourself.
 
 ## Step 1:
 Clone kohya_ss GUI, and enter it.
