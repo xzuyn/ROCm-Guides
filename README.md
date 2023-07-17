@@ -2,6 +2,8 @@
 ## Main Guide
 This is the main README guide. This will get you set up to be able to follow the other guides.
 
+It will get you the correct kernals, drivers, and ROCm.
+
 If you don't already have this stuff done, the other guides will be of ***no use to you*** as they ***won't work***.
 
 ## Credits:
