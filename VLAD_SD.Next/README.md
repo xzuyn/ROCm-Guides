@@ -178,7 +178,7 @@ Run these commands:
 `python setup.py install`
 
 ## Step 20 (Option 2):
-To make sure you dont have to run `export HSA_OVERRIDE_GFX_VERSION=11.0.0` everytime you open the terminal, we are going to edit a systemfile.
+To make sure you dont have to run `export HSA_OVERRIDE_GFX_VERSION=11.0.0` everytime you open the terminal, we are going to edit a systemfile. You can ignore Step 20-23 if you've already added `HSA_OVERRIDE_GFX_VERSION=11.0.0`.
 
 Run these commands:
 
