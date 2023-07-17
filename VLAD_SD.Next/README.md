@@ -46,7 +46,7 @@ You should now be able to run VLAD's fork with ROCm 5.5 using the following comm
 Run this command:
 `python launch.py`
 
-# EXTRA: MANUALLY BUILD PYTORCH & PYVISION
+# EXTRA: MANUALLY BUILD PYTORCH & TORCHVISION
 ## If you want the faster version you have to build PyTorch & PyVision yourself.
 
 ## Step 6:
