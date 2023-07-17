@@ -191,11 +191,20 @@ Run this command:
 `cd LLaMa-LoRA-Tuner`
 
 ## Step 21 (Option 2):
+Create a default run_app.sh file for easy running. After creating this, you are free to edit it how you'd like.
+
+Run these commands:
+
+`echo -e '#!/bin/bash\n\nsource venv/bin/activate\npython app.py --data_dir='\''./data'\'' --base_model='\''decapoda-research/llama-7b-hf'\''\n' > run_app.sh`
+
+``chmod +x run_app.sh``
+
+## Step 22 (Option 2):
 You can now use LLaMa-LoRA-Tuner.
 
 Run this command:
 
-`python app.py --data_dir='./data' --base_model='decapoda-research/llama-7b-hf'`
+`./run_app.sh`
 
 
 ## Note:
@@ -204,3 +213,5 @@ You will get an error about bitsandbytes. You can ignore this.
 Also if when you load a model it complains about protobuf, run this command:
 
 `pip install protobuf=3.19.0`
+
+You can also create a .sh so you don't have to remember the command you used, and it will activate your venv for you.
