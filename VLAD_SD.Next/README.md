@@ -205,6 +205,8 @@ Run these commands:
 You can now use VLAD's fork. You can run `webui.sh` and it will automatically activate the venv for you.
 
 Run this command:
+
 `./webui.sh`
+
 # Note:
 The original automatic1111 fill mess up your torch install with the launch.py, thats why I chose VLAD's fork.
