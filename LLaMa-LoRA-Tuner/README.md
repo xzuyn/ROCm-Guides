@@ -195,7 +195,8 @@ Create a default run_app.sh file for easy running. After creating this, you are 
 
 Run these commands:
 
-`echo -e '#!/bin/bash\n\nsource venv/bin/activate\npython app.py --data_dir='\''./data'\'' --base_model='\''decapoda-research/llama-7b-hf'\''\n' > run_app.sh`
+`echo -e '#!/bin/bash\n\nsource venv/bin/activate\nexport HF_HOME=./HF_HOME/\npython app.py --data_dir='\''./data'\'' --base_model='\''decapoda-research/llama-7b-hf'\''\n' > run_app.sh
+`
 
 ``chmod +x run_app.sh``
 
