@@ -3,7 +3,7 @@ Credit:
 - https://github.com/m68k-fr/Compiling-Pytorch-for-ROCm
 - ODIN the GOAT
 
-This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but should't cause any issues.
+This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
 Modified: **July 17th, 2023.**
 
