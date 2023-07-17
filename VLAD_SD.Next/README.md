@@ -67,12 +67,14 @@ If you want the faster version you have to ***build PyTorch & PyVision*** yourse
 ## Step 6 (Option 2):
 Go into your repositories folder that can be found in your automatic folder.
 
-Run this commands:
+Run this command:
 
-`cd repositories/`
+`cd repositories`
 
 ## Step 7 (Option 2):
 Clone pytorch.
+
+Run this command:
 
 `git clone https://github.com/pytorch/pytorch`
 
