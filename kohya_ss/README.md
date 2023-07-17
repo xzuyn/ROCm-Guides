@@ -199,3 +199,8 @@ Run this command:
 You can now use kohya_ss GUI. You just need to run this command:
 
 `python kohya_gui.py "$@"`
+
+## Notes:
+Some features don't work.
+
+Disable `xformers`, and change the optimizer to something other than `AdamW8bit`. I chose AdamW.
