@@ -56,9 +56,9 @@ Run this command:
 
 `pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/rocm5.5`
 
-You can now use aitextgen-fork. It's a bit hacky atm, and only features a script for training from scratch. I'll be adding a finetune option now that I have stronger hardware. You just need to run this command:
+You can now use aitextgen-fork. It's a bit hacky atm, and only features a script for training from scratch. I'll be adding a finetune option now that I have stronger hardware. By default the scratch script will make a tiny gpt2 model on shakespeare.
 
-Now edit the file how you want, and run it with the following command:
+Edit `train_from_scratch.py` if you want, and run it with the following commands:
 
 `export HSA_OVERRIDE_GFX_VERSION=11.0.0`
 
@@ -164,7 +164,7 @@ Run this command:
 `cd ../`
 
 ## Step 17 (Option 2):
-To make sure you dont have to run `export HSA_OVERRIDE_GFX_VERSION=11.0.0` everytime you open the terminal, we are going to edit a systemfile. You can ignore Step 18 to 21 if you've already added `HSA_OVERRIDE_GFX_VERSION=11.0.0`.
+To make sure you dont have to run `export HSA_OVERRIDE_GFX_VERSION=11.0.0` everytime you open the terminal, we are going to edit a systemfile. You can ignore Step 17 to 20 if you've already added `HSA_OVERRIDE_GFX_VERSION=11.0.0`.
 
 Run these commands:
 
@@ -190,21 +190,10 @@ Run this command:
 `cd aitextgen-fork`
 
 ## Step 21 (Option 2):
-You can now use aitextgen-fork. It's a bit hacky atm, and only features a script for training from scratch. I'll be adding a finetune option now that I have stronger hardware. You just need to run this command:
+You can now use aitextgen-fork. It's a bit hacky atm, and only features a script for training from scratch. I'll be adding a finetune option now that I have stronger hardware. By default the scratch script will make a tiny gpt2 model on shakespeare.
 
-You'll need to download the script by running this command:
-
-`wget https://raw.githubusercontent.com/xzuyn/aitextgen-fork/master/train_from_scratch.py`
-
-Now edit the file how you want, and run it with the following command:
+Edit `train_from_scratch.py` if you want, and run it with the following commands:
 
 `export HSA_OVERRIDE_GFX_VERSION=11.0.0`
 
 `python train_from_scratch.py`
-
-## Notes:
-Some features don't work.
-
-Disable `xformers`, and change the optimizer to something other than `AdamW8bit`. I chose `AdamW`.
-
-I've included a [known working config](https://github.com/xzuyn/ROCm-Guides/blob/main/kohya_ss/known_working.json) for a LoRA. It runs on my 7900 XTX using ROCm 5.6.5.
