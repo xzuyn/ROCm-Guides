@@ -43,7 +43,7 @@ This should result in an error.
 ## Step 4:
 Uninstall the PyTorch & TorchVision that step 3 may have installed.
 
-Run these commands:
+Run this command:
 
 `uninstall torch torchvision`
 
