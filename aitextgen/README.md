@@ -158,7 +158,7 @@ Add this, then press enter:
 `exit()`
 
 ## Step 16 (Option 2):
-Go back into the main koyhya_ss directory.
+Go back into the main aitextgen-fork directory.
 
 Run this command:
 `cd ../`
