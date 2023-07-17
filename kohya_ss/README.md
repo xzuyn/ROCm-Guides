@@ -1,7 +1,3 @@
-# IGNORE. THIS IS A WIP.
-# IGNORE. THIS IS A WIP.
-# IGNORE. THIS IS A WIP.
-
 # THIS IS A TUTORIAL/INSTALL GUIDE FOR RDNA3 GPUS. IT WILL NOT WORK WITH OLDER MODELS.
 ## Credits:
 - https://github.com/m68k-fr/Compiling-Pytorch-for-ROCm
