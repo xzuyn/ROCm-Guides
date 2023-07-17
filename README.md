@@ -9,6 +9,7 @@ If you don't already have this stuff done, the other guides will be of ***no use
 ## Credits:
 - https://github.com/m68k-fr/Compiling-Pytorch-for-ROCm
 - ODIN the GOAT
+- https://github.com/Kademo15
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
@@ -18,13 +19,15 @@ Modified: **July 17th, 2023.**
 Install `Ubuntu 22.04.2 LTS`
 
 ## Step 2:
-Open a terminal and run these commands:
+Check if you are on kernel 5.19 if you are proceed to step 10 if you are not open a terminal and run these commands:
 
 `sudo add-apt-repository ppa:cappelikan/ppa`
 
 `sudo apt update`
 
 `sudo apt install mainline`
+
+Launch mainline via the GUI and install the 5.19 kernel
 
 ## Step 3:
 Reboot into the grub menu.
@@ -43,6 +46,8 @@ Select `Ubuntu, with Linux 5.19.0-46-generic (recovery mode)`
 
 ## Step 6:
 Select `resume`.
+
+Note: we boot into recovery mode because if you boot into 5.19 with an rnda3 card and an IGPU you may get a fatal gpu error
 
 ## Step 7:
 You now need to remove the unwanted kernals.
