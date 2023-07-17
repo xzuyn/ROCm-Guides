@@ -27,11 +27,6 @@ Open a terminal and run these commands:
 `sudo apt install mainline`
 
 ## Step 3:
-Run this command:
-
-`sudo grub-mkconfig | grep -iE "menuentry 'Ubuntu, with Linux" | awk '{print i++ " : "$1, $2, $3, $4, $5, $6, $7}'`
-
-## Step 4:
 Reboot into the grub menu.
 
 For me I had to press my Esc key *once* while Ubuntu boots.
@@ -40,23 +35,23 @@ For you it may be different. You may not need to press anything at all.
 
 You are trying to get to a screen which has an `Advanced options for Ubuntu` selectable.
 
-## Step 5:
+## Step 4:
 Select `Advanced options for Ubuntu`
 
-## Step 6:
+## Step 5:
 Select `Ubuntu, with Linux 5.19.0-46-generic (recovery mode)`
 
-## Step 7:
+## Step 6:
 Select `resume`.
 
-## Step 8:
+## Step 7:
 You now need to remove the unwanted kernals.
 
 Run this command:
 
 `pkg --list | grep -i -E --color 'linux-image|linux-kernel' | grep '^ii'`
 
-## Step 9:
+## Step 8:
 This will give you a list of kernals. You want to `apt-get remove` all except `linux-image-5.19.0-46-generic`.
 
 In my case I had to remove the following;
@@ -65,17 +60,17 @@ In my case I had to remove the following;
 
 `apt-remove linux-image-oem-22.04c`
 
-## Step 10:
-You now need to restart, but you still need to load into recovery mode so do the same as you did in **step 4**.
+## Step 9:
+You now need to restart, but you still need to load into recovery mode so do the same as you did in **step 3**.
 
-## Step 11:
+## Step 10:
 You need to add yourself to render and video.
 
 Run this command:
 
 `sudo usermod -aG video,render $LOGNAME`
 
-## Step 12:
+## Step 11:
 Make sure amdgpu is uninstalled.
 
 Run these commands:
@@ -84,14 +79,14 @@ Run these commands:
 
 `sudo apt-get purge amdgpu-install`
 
-## Step 13:
+## Step 12:
 Download the latest drivers.
 
 Run this command:
 
 `wget http://repo.radeon.com/amdgpu-install/5.6/ubuntu/jammy/amdgpu-install_5.6.50600-1_all.deb`
 
-## Step 14:
+## Step 13:
 Now install amdgpu.
 
 Run these commands:
@@ -100,30 +95,30 @@ Run these commands:
 
 `amdgpu-install --usecase=hip,rocm  --no-32`
 
-## Step 15:
+## Step 14:
 You need to reboot now. You don't need to go into recovery mode anymore, so just boot as you normally would.
 
 Just reboot normally or use run this command:
 
 `reboot`
 
-## Step 16:
+## Step 15:
 Confirm you are using `5.19.0-46-generic`
 
 Run this command:
 `uname -r`
 
-## Step 17:
+## Step 16:
 You can try `rocminfo` in the terminal to check if ROCm is installed correctly (you should find your gpu name in there).
 
-## Step 18:
+## Step 17:
 Install the prerq.
 
 Run this command:
 
 `sudo apt install git python3-dev python3-venv libjpeg-dev libpng-dev libstdc++-12-dev cmake`
 
-## Step 19:
+## Step 18:
 Enjoy. You can now follow the other guides in this repo. Just open the folder which has the name of the program you are trying to set up, and read its README.
 
 For example, you can set up VLAD's fork of automatic1111 by following [this guide.](https://github.com/xzuyn/ROCm-Guides/tree/main/VLAD_SD.Next)
