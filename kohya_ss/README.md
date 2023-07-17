@@ -189,6 +189,13 @@ You do so by pressing `CTRL` and `X` to exit.
 Then pressing `Enter` to write the changes.
 
 ## Step 22 (Option 2):
+Now you can go back into kohya_ss.
+
+Run this command:
+
+`cd kohya_ss`
+
+## Step 23 (Option 2):
 You can now use kohya_ss GUI. You just need to run this command:
 
 `python kohya_gui.py "$@"`
