@@ -2,6 +2,7 @@
 ## Credits:
 - https://github.com/m68k-fr/Compiling-Pytorch-for-ROCm
 - ODIN the GOAT
+- https://github.com/Kademo15
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
@@ -110,6 +111,8 @@ Use the path the previous command gave you in this command.
 Run this command replacing `REPLACEME` with your directory. Keep the quotes:
 
 `export CMAKE_PREFIX_PATH="REPLACEME"`
+
+It should look something like this; `export CMAKE_PREFIX_PATH="/home/username/pytorch/venv/lib/python3.10/site-packages"`
 
 ## Step 12 (Option 2):
 Build PyTorch. This will take a while.
