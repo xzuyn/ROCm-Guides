@@ -45,7 +45,7 @@ Uninstall the PyTorch & TorchVision that step 3 may have installed.
 
 Run this command:
 
-`uninstall torch torchvision`
+`pip uninstall torch torchvision`
 
 ## Step 5 (Option 1):
 Install precompiled PyTorch & TorchVision for ROCm 5.5.
