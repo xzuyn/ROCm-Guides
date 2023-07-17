@@ -3,7 +3,7 @@
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/)
 
 ## Step 1:
-Clone Vlad's fork of automtic1111.
+Clone VLAD's fork of automtic1111.
 
 Run these commands:
 
@@ -41,7 +41,7 @@ Run these commands:
 `pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.5`
 
 ## Step 5:
-You should now be able to run Vlad's fork with ROCm 5.5 using the following command.
+You should now be able to run VLAD's fork with ROCm 5.5 using the following command.
 
 Run this command:
 `python launch.py`
@@ -186,7 +186,7 @@ Run these commands:
 `cd automatic`
 
 ## Step 24:
-You can now use Vlad's fork. You can run `webui.sh` and it will automatically activate the venv for you.
+You can now use VLAD's fork. You can run `webui.sh` and it will automatically activate the venv for you.
 
 Run this command:
 `./webui.sh`
@@ -195,4 +195,4 @@ Run this command:
 Enjoy.
 
 # Note:
-The original automatic1111 fill mess up your torch install with the launch.py, thats why I chose Vlad's fork.
+The original automatic1111 fill mess up your torch install with the launch.py, thats why I chose VLAD's fork.
