@@ -192,8 +192,6 @@ Run this command:
 ## Step 21 (Option 2):
 You can now use aitextgen-fork. It's a bit hacky atm, and only features a script for training from scratch. I'll be adding a finetune option now that I have stronger hardware. By default the scratch script will make a tiny gpt2 model on shakespeare.
 
-Edit `train_from_scratch.py` if you want, and run it with the following commands:
-
-`export HSA_OVERRIDE_GFX_VERSION=11.0.0`
+Edit `train_from_scratch.py` if you want, and run it with the following command:
 
 `python train_from_scratch.py`
