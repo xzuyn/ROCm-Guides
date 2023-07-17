@@ -203,4 +203,4 @@ You can now use kohya_ss GUI. You just need to run this command:
 ## Notes:
 Some features don't work.
 
-Disable `xformers`, and change the optimizer to something other than `AdamW8bit`. I chose AdamW.
+Disable `xformers`, and change the optimizer to something other than `AdamW8bit`. I chose `AdamW`.
