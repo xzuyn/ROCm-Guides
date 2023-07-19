@@ -5,7 +5,7 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **July 17th, 2023.**
+Modified: **July 18th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/).
@@ -208,4 +208,4 @@ Some features don't work.
 
 Disable `xformers`, and change the optimizer to something other than `AdamW8bit`. I chose `AdamW`.
 
-I've included a [known working config](https://github.com/xzuyn/ROCm-Guides/blob/main/kohya_ss/known_working.json) for a LoRA. It runs on my 7900 XTX using ROCm 5.6.5.
+I've included a [known working config](https://github.com/xzuyn/ROCm-Guides/blob/main/kohya_ss/known_working_lora.json) for a LoRA. It runs on my 7900 XTX using ROCm 5.6.5.
