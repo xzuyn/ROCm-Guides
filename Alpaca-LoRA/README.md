@@ -6,7 +6,7 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **July 19th, 2023.**
+Modified: **July 20th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/).
@@ -203,14 +203,7 @@ Now run these commands to generate a sh for ease of use:
 
 `chmod +x run_app.sh`
 
+## Step 22 (Option 2):
 You can run Alpaca-LoRA now with this command any time:
 
 `./run_app.sh`
-
-## Step 22 (Option 2):
-You can now use Alpaca-LoRA.
-
-Run this command:
-
-`./run_app.sh`
-
