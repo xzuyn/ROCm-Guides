@@ -55,7 +55,7 @@ Install precompiled PyTorch for ROCm 5.5.
 
 Run this command:
 
-`pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/rocm5.5`
+`pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/rocm5.6`
 
 You can now use LLaMa-LoRA-Tuner.
 
