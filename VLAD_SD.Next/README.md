@@ -69,7 +69,7 @@ Run this command:
 ## Step 5 (Option 2):
 *MANUALLY BUILD PYTORCH & TORCHVISION*
 
-If you want the faster version you have to ***build PyTorch & PyVision*** yourself.
+If you want the faster version you have to ***build PyTorch & TorchVision*** yourself.
 
 ## Step 6 (Option 2):
 Go into your repositories folder that can be found in your automatic folder.
@@ -176,7 +176,7 @@ Run this command:
 `cd ../`
 
 ## Step 19 (Option 2):
-Clone and install PyVision. This can take a while as well.
+Clone and install TorchVision. This can take a while as well.
 
 Run these commands:
 
