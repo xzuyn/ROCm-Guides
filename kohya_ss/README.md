@@ -64,7 +64,7 @@ You can now use kohya_ss GUI. You just need to run these commands:
 ## Step 5 (Option 2):
 *MANUALLY BUILD PYTORCH & TORCHVISION*
 
-If you want the faster version you have to ***build PyTorch & PyVision*** yourself.
+If you want the faster version you have to ***build PyTorch & TorchVision*** yourself.
 
 ## Step 6 (Option 2):
 Clone pytorch.
@@ -162,7 +162,7 @@ Run this command:
 `cd ../`
 
 ## Step 18 (Option 2):
-Clone and install PyVision. This can take a while as well.
+Clone and install TorchVision. This can take a while as well.
 
 Run these commands:
 
