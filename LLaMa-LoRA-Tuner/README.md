@@ -216,3 +216,5 @@ Also if when you load a model it complains about protobuf, run this command:
 `pip install protobuf==3.19.0`
 
 You can also create a .sh so you don't have to remember the command you used, and it will activate your venv for you.
+
+If you are change the model to something else and it complains about not having a padding token, following this; https://github.com/zetavg/LLaMA-LoRA-Tuner/discussions/29
