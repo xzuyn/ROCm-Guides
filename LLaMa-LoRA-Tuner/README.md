@@ -209,12 +209,8 @@ Run this command:
 
 
 ## Note:
-You will get an error about bitsandbytes. You can ignore this.
+- You will get an error about bitsandbytes. This will be the last thing you see before the model starts loading, so it will sit there for a while. It's not broken, so just wait.
 
-Also if when you load a model it complains about protobuf, run this command:
+- If a model complains about not having protobuf, run this command; `pip install protobuf==3.19.0`
 
-`pip install protobuf==3.19.0`
-
-You can also create a .sh so you don't have to remember the command you used, and it will activate your venv for you.
-
-If you are change the model to something else and it complains about not having a padding token, following this; https://github.com/zetavg/LLaMA-LoRA-Tuner/discussions/29
+- If a model complains about not having a padding token, follow this; https://github.com/zetavg/LLaMA-LoRA-Tuner/discussions/29
