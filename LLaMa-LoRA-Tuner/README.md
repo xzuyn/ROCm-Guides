@@ -6,7 +6,7 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **July 17th, 2023.**
+Modified: **July 26th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/).
@@ -213,6 +213,6 @@ You will get an error about bitsandbytes. You can ignore this.
 
 Also if when you load a model it complains about protobuf, run this command:
 
-`pip install protobuf=3.19.0`
+`pip install protobuf==3.19.0`
 
 You can also create a .sh so you don't have to remember the command you used, and it will activate your venv for you.
