@@ -5,6 +5,7 @@ source rocm_venv/bin/activate
 
 pip install -r requirements.lock.txt
 pip install wandb
+pip install protobuf==3.19.0
 
 pip uninstall -y torch
 
