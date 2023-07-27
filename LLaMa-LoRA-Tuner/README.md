@@ -69,7 +69,7 @@ Run this command:
 `./run_llama-lora-tuner.sh`
 
 ## Note:
-- You will get an error and complaints about bitsandbytes and CUDA. This will be the last thing you see before the model starts loading, so it will sit there for a while. It's not broken, so just wait.
+- You will get errors and complaints about bitsandbytes and CUDA. You can ignore these.
 
 - If a model complains about not having a padding token, follow this; https://github.com/zetavg/LLaMA-LoRA-Tuner/discussions/29
 
