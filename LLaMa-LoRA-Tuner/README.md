@@ -29,7 +29,7 @@ Run these commands:
 
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/setup_rocm_venv_whl.sh`
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/run_LLaMa-LoRA-Tuner.sh`
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/run_llama-lora-tuner.sh`
 
 ## Step 3 (Option 1):
 Setup the venv with the wheel for PyTorch+ROCm5.6.
@@ -42,7 +42,7 @@ After thats complete, you should now be able to run LLaMa-LoRA-Tuner with the ru
 
 Run this command:
 
-`./run_LLaMa_LoRA_Tuner.sh`
+`./run_llama-lora-tuner.sh`
 
 ## Step 3 (Option 2):
 Setup the venv with by building PyTorch+ROCm. This will take longer, but will be a more updated version of PyTorch.
@@ -55,7 +55,7 @@ After thats complete, you should now be able to run LLaMa-LoRA-Tuner with the ru
 
 Run this command:
 
-`./run_LLaMa_LoRA_Tuner.sh`
+`./run_llama-lora-tuner.sh`
 
 ## Note:
 - You will get an error and complaints about bitsandbytes and CUDA. This will be the last thing you see before the model starts loading, so it will sit there for a while. It's not broken, so just wait.
