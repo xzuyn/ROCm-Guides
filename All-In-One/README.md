@@ -6,6 +6,19 @@
 
 Modified: **July 27th, 2023.**
 
+## Guide Info:
+This will let you use ROCm with multiple AI projects with just one venv to keep disk usage down.
+
+A list of added projects:
+- LLaMa-LoRA-Tuner
+- kohya_ss
+
+A list of projects I intend to add:
+- VLAD_SD.Next
+
+A list of projects I intend to add if I can solve issues that prevent it from working right:
+- Alpaca-LoRA
+
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/).
 
