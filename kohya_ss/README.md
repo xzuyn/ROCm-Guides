@@ -2,10 +2,11 @@
 ## Credits:
 - https://github.com/m68k-fr/Compiling-Pytorch-for-ROCm
 - ODIN the GOAT
+- https://github.com/Kademo15
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **July 18th, 2023.**
+Modified: **July 27th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/).
