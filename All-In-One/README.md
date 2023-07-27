@@ -57,7 +57,7 @@ Run this command:
 
 After thats complete, you should now be able to run LLaMa-LoRA-Tuner or kohya_ss with the two run bash script.
 
-Run either of these command:
+Run either of these commands:
 
 `./run_llama-lora-tuner.sh`
 
@@ -72,7 +72,7 @@ Run this command:
 
 After thats complete, you should now be able to run LLaMa-LoRA-Tuner or kohya_ss with the two run bash script.
 
-Run either of these command:
+Run either of these commands:
 
 `./run_llama-lora-tuner.sh`
 
