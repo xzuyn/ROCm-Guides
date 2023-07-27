@@ -6,7 +6,7 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **July 26th, 2023.**
+Modified: **July 27th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/).
@@ -209,7 +209,7 @@ Run this command:
 
 
 ## Note:
-- You will get an error about bitsandbytes. This will be the last thing you see before the model starts loading, so it will sit there for a while. It's not broken, so just wait.
+- You will get an error and complaints about bitsandbytes and CUDA. This will be the last thing you see before the model starts loading, so it will sit there for a while. It's not broken, so just wait.
 
 - If a model complains about not having protobuf, run this command; `pip install protobuf==3.19.0`
 
