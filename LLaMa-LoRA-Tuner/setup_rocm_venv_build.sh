@@ -5,6 +5,7 @@ source rocm_venv/bin/activate
 
 # Install the dependencies for LLaMa-LoRA-Tuner
 pip install -r requirements.lock.txt
+pip install wandb
 
 # Uninstall the torch that LLaMa-LoRA-Tuner may have installed
 pip uninstall -y torch
