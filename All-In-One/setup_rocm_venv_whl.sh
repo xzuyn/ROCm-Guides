@@ -58,7 +58,6 @@ echo ""
 
 # Install TorchVision+ROCm5.6
 pip install --pre torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.6
-pip uninstall -y bitsandbytes
 
 cd ..
 cd ..
