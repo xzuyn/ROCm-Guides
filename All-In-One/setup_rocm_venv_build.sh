@@ -105,6 +105,7 @@ cd rocm_venv
 git clone https://github.com/pytorch/vision
 cd vision
 python3 setup.py install
+pip uninstall -y bitsandbytes
 cd ..
 echo ""
 echo "Step 14/14 Complete."
