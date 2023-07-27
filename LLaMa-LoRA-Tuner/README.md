@@ -31,7 +31,18 @@ Run these commands:
 
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/run_llama-lora-tuner.sh`
 
-## Step 3 (Option 1):
+## Setup 3:
+Give the bash scripts permissions to run.
+
+Run these commands:
+
+`chmod +x setup_rocm_venv_build.sh`
+
+`chmod +x setup_rocm_venv_whl.sh`
+
+`chmod +x run_llama-lora-tuner.sh`
+
+## Step 4 (Option 1):
 Setup the venv with the wheel for PyTorch+ROCm5.6.
 
 Run this command:
@@ -44,7 +55,7 @@ Run this command:
 
 `./run_llama-lora-tuner.sh`
 
-## Step 3 (Option 2):
+## Step 4 (Option 2):
 Setup the venv with by building PyTorch+ROCm. This will take longer, but will be a more updated version of PyTorch.
 
 Run this command:
