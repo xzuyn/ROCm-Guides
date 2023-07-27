@@ -24,6 +24,8 @@ echo ""
 # Install the dependencies for LLaMa-LoRA-Tuner
 cd LLaMa-LoRA-Tuner
 pip install -r requirements.lock.txt
+pip install wandb
+pip install protobuf==3.19.0
 echo ""
 echo "Step 4/9 Complete."
 echo ""
