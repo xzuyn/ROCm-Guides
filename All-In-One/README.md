@@ -81,8 +81,6 @@ Run either of these commands:
 ## Note:
 - You will get an error and complaints about bitsandbytes and CUDA. This will be the last thing you see before the model starts loading, so it will sit there for a while. It's not broken, so just wait.
 
-- If a model complains about not having protobuf, run this command; `pip install protobuf==3.19.0`
-
 - If a model complains about not having a padding token, follow this; https://github.com/zetavg/LLaMA-LoRA-Tuner/discussions/29
 
 - Some good small models to start with are; `openlm-research/open_llama_3b_v2` or `meta-llama/Llama-2-7b-hf`
