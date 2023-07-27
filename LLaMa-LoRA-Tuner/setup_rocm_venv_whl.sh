@@ -4,6 +4,7 @@ python3 -m venv rocm_venv
 source rocm_venv/bin/activate
 
 pip install -r requirements.lock.txt
+pip install wandb
 
 pip uninstall -y torch
 
