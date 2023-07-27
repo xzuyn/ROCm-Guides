@@ -25,9 +25,9 @@ Get the setup and run bash scripts from this repo.
 
 Run these commands:
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/setup_rocm_venv_build.sh`
-
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/setup_rocm_venv_whl.sh`
+
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/setup_rocm_venv_build.sh`
 
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/LLaMa-LoRA-Tuner/run_llama-lora-tuner.sh`
 
@@ -36,9 +36,9 @@ Give the bash scripts permissions to run.
 
 Run these commands:
 
-`chmod +x setup_rocm_venv_build.sh`
-
 `chmod +x setup_rocm_venv_whl.sh`
+
+`chmod +x setup_rocm_venv_build.sh`
 
 `chmod +x run_llama-lora-tuner.sh`
 
