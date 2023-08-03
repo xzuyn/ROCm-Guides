@@ -15,7 +15,7 @@ https://github.com/ventoy/Ventoy/releases
 Unzip the zip file you just downloaded.
 
 ## Step 3:
-Go into the the ventoy-**version number** folder.
+Go into the the ventoy-`version number` folder.
 
 Run `Ventoy2Disk.exe`
 
