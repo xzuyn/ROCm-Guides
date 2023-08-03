@@ -6,10 +6,10 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **July 17th, 2023.**
+Modified: **August 3rd, 2023.**
 
 ## Step 0:
-If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](https://github.com/xzuyn/ROCm-Guides/).
+If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](..).
 
 After you've completed that, this guide will have two options that fork out on step 5.
 
