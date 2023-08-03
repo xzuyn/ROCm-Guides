@@ -87,7 +87,7 @@ Run this command:
 ## Step 10:
 Check if ROCm is installed correctly. You should find your GPU name.
 
-Run this command:
+Open the terminal and run this command:
 
 `rocminfo`
 
