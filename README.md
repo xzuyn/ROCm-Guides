@@ -17,7 +17,14 @@ Modified: **August 2nd, 2023.**
 Install `Ubuntu 22.04.2 LTS`
 
 ## Step 2:
-Check if you are on kernel 5.19. If you are, proceed to step 10. If you are not, open a terminal and run these commands:
+Open a terminal.
+
+Press these keys:
+
+`Ctrl` + `Alt` + `T`
+
+## Step 3:
+Run these commands:
 
 `sudo add-apt-repository ppa:cappelikan/ppa`
 
@@ -25,58 +32,74 @@ Check if you are on kernel 5.19. If you are, proceed to step 10. If you are not,
 
 `sudo apt install mainline`
 
-Launch the `Mainline Kernals` application via the Ubuntu GUI and install the 5.19 kernel.
+## Step 4:
+Launch the `mainline`, and verify that the `6.1.0-1016-oem` is running.
 
-![image](/000_Image_Assets_Ignore/mainline_kernals_icon.png)
+Run this command:
 
-## Step 3:
+`mainline`
+
+Look near the top, and check what `Running kernel` says.
+
+You are likely running `6.1.0-1016-oem`, so continue with the guide. If you are already on `5.19.0-46-generic` you can skip to **Step 12**
+
+## Step 5:
+Check if `6.1.0-1016-oem` & `5.19.0-46-generic` is installed.
+
+Run this command:
+
+`mainline --list-installed`
+
+If you scroll up a bit to you should see `6.1.0-1016-oem` is running. You should also see `5.19.0.46.47~22.04.21` and `5.19.0.46.47~22.04.21`(?) are installed.
+
+## Step 5:
 Reboot into the grub menu.
 
 For me I had to press `Esc` *once* while Ubuntu boots.
 
-For you it may be different. You may not need to press anything at all, or you may need to *hold* `Shift` while Ubuntu boots.
+For you it may be different. You may need to *hold* `Shift` while Ubuntu boots, you may not need to press anything at all.
 
 You are trying to get to a screen which has an `Advanced options for Ubuntu` selectable.
 
-## Step 4:
+## Step 6:
 Select `Advanced options for Ubuntu`
 
-## Step 5:
+## Step 7:
 Select `Ubuntu, with Linux 5.19.0-46-generic (recovery mode)`
 
-## Step 6:
+## Step 8:
 Select `resume`.
 
-Note: we boot into recovery mode because if you boot into 5.19 with an rnda3 card and an IGPU, you may get a fatal gpu error.
+Note: We boot into recovery mode because if you boot into 5.19 with an RDNA3 card and an IGPU, you may get a `fatal gpu` error.
 
-## Step 7:
+## Step 9:
 You now need to remove the unwanted kernals.
 
 Run this command:
 
 `pkg --list | grep -i -E --color 'linux-image|linux-kernel' | grep '^ii'`
 
-## Step 8:
+## Step 10:
 This will give you a list of kernals. You want to `apt-get remove` all except `linux-image-5.19.0-46-generic`.
 
-In my case I had to remove the following;
+In my case I had to remove the following by running these commands:
 
 `apt-remove linux-image-6.1.0-1016-oem`
 
 `apt-remove linux-image-oem-22.04c`
 
-## Step 9:
-You now need to restart, but you still need to load into recovery mode so do the same as you did in **step 3**.
+## Step 11:
+You now need to restart, but you still need to load into recovery mode so do the same as you did in **step 5**.
 
-## Step 10:
+## Step 12:
 You need to add yourself to render and video.
 
 Run this command:
 
 `sudo usermod -aG video,render $LOGNAME`
 
-## Step 11:
-Make sure amdgpu is uninstalled.
+## Step 13:
+Make sure AMDGPU is uninstalled.
 
 Run these commands:
 
@@ -84,46 +107,46 @@ Run these commands:
 
 `sudo apt-get purge amdgpu-install`
 
-## Step 12:
+## Step 14:
 Download the latest drivers.
 
 Run this command:
 
-`wget http://repo.radeon.com/amdgpu-install/5.6/ubuntu/jammy/amdgpu-install_5.6.50600-1_all.deb`
+`wget http://repo.radeon.com/amdgpu-install/.5.6.1/ubuntu/jammy/amdgpu-install_5.6.50601-1_all.deb`
 
-## Step 13:
-Now install amdgpu.
+## Step 15:
+Now install AMDGPU.
 
 Run these commands:
 
-`sudo dpkg -i amdgpu-install_5.6.50600-1_all.deb`
+`sudo dpkg -i amdgpu-install_5.6.50601-1_all.deb`
 
 `amdgpu-install --usecase=hip,rocm  --no-32`
 
-## Step 14:
-You need to reboot now. You don't need to go into recovery mode anymore, so just boot as you normally would.
+## Step 16:
+You need to reboot now, and you don't need to go into recovery mode anymore so just boot as you normally would.
 
-Just reboot normally or use run this command:
+Run this command:
 
 `reboot`
 
-## Step 15:
+## Step 17:
 Confirm you are using `5.19.0-46-generic`
 
 Run this command:
 `uname -r`
 
-## Step 16:
+## Step 18:
 You can try `rocminfo` in the terminal to check if ROCm is installed correctly (you should find your gpu name in there).
 
-## Step 17:
+## Step 19:
 Install the prerq.
 
 Run this command:
 
 `sudo apt install git python3-dev python3-venv libjpeg-dev libpng-dev libstdc++-12-dev cmake`
 
-## Step 18:
+## Step 20:
 Enjoy. You can now follow the other guides in this repo. Just open the folder which has the name of the program you are trying to set up, and read its README.
 
 For example, you can set up VLAD's fork of automatic1111 by following [this guide.](https://github.com/xzuyn/ROCm-Guides/tree/main/VLAD_SD.Next)
