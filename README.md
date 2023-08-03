@@ -34,9 +34,9 @@ Launch the `Mainline Kernals` application via the Ubuntu GUI and install the 5.1
 ## Step 3:
 Reboot into the grub menu.
 
-For me I had to press my Esc key *once* while Ubuntu boots.
+For me I had to press `Esc` *once* while Ubuntu boots.
 
-For you it may be different. You may not need to press anything at all.
+For you it may be different. You may not need to press anything at all, or you may need to *hold* `Shift` while Ubuntu boots.
 
 You are trying to get to a screen which has an `Advanced options for Ubuntu` selectable.
 
