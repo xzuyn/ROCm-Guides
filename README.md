@@ -33,7 +33,7 @@ Run these commands:
 `sudo apt install mainline`
 
 ## Step 4:
-Launch the `mainline`, and verify that the `6.1.0-1016-oem` is running.
+Launch mainline and verify that the `6.1.0-1016-oem` is running.
 
 Run this command:
 
