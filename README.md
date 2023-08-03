@@ -18,6 +18,8 @@ Install `Ubuntu 22.04.2 LTS`
 
 https://releases.ubuntu.com/jammy/
 
+A more in-depth guide can be found [here](/Ubuntu-From-Windows-10/)
+
 ## Step 2:
 Open a terminal.
 
