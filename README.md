@@ -56,7 +56,7 @@ Run this command:
 
 Look near the top on the 4th line, and check what `Running kernel:` says.
 
-You are likely running `5.19.0-50-generic`. If so, continue with the guide. If you aren't {I need to add this to the guide}
+You are likely running `5.19.0-50-generic`. If so, continue with the guide. If you aren't {I need to add this to the guide}, and are on some version of 5.19, it might still work if you continue.
 
 ## Step 8:
 You need to add yourself to render and video.
