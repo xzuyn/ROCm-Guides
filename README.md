@@ -13,7 +13,7 @@ If you don't already have this stuff done, the other guides will be of ***no use
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **July 17th, 2023.**
+Modified: **August 2nd, 2023.**
 
 ## Step 1:
 Install `Ubuntu 22.04.2 LTS`
@@ -27,7 +27,9 @@ Check if you are on kernel 5.19. If you are, proceed to step 10. If you are not,
 
 `sudo apt install mainline`
 
-Launch mainline via the GUI and install the 5.19 kernel.
+Launch the `Mainline Kernals` application via the Ubuntu GUI and install the 5.19 kernel.
+
+![image](/000_Image_Assets_Ignore/mainline_kernals_icon.png)
 
 ## Step 3:
 Reboot into the grub menu.
