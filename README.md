@@ -21,14 +21,25 @@ https://releases.ubuntu.com/jammy/
 A more in-depth guide can be found [here](/Ubuntu-From-Windows-10/)
 
 ## Step 2:
+Run the Software Updater
+
+## Step 3:
+Install any pending updates.
+
+## Step 4:
+Reboot if it asks.
+
+## Step 5:
 Open a terminal.
 
 Press these keys:
 
 `Ctrl` + `Alt` + `T`
 
-## Step 3:
+## Step 6:
 Run these commands:
+
+`sudo apt update && sudo apt upgrade`
 
 `sudo add-apt-repository ppa:cappelikan/ppa`
 
@@ -36,7 +47,7 @@ Run these commands:
 
 `sudo apt install mainline`
 
-## Step 4:
+## Step 7:
 Launch mainline and verify that the `5.19.0-50-generic` is running.
 
 Run this command:
@@ -47,14 +58,14 @@ Look near the top on the 4th line, and check what `Running kernel:` says.
 
 You are likely running `5.19.0-50-generic`. If so, continue with the guide. If you aren't {I need to add this to the guide}
 
-## Step 5:
+## Step 8:
 You need to add yourself to render and video.
 
 Run this command:
 
 `sudo usermod -aG video,render $LOGNAME`
 
-## Step 6:
+## Step 9:
 Make sure AMDGPU is uninstalled.
 
 Run these commands:
@@ -63,14 +74,14 @@ Run these commands:
 
 `sudo apt-get purge amdgpu-install`
 
-## Step 7:
+## Step 10:
 Download the latest drivers.
 
 Run this command:
 
 `wget http://repo.radeon.com/amdgpu-install/5.6/ubuntu/jammy/amdgpu-install_5.6.50600-1_all.deb`
 
-## Step 8:
+## Step 11:
 Now install AMDGPU.
 
 Run these commands:
@@ -79,21 +90,21 @@ Run these commands:
 
 `amdgpu-install --usecase=hip,rocm  --no-32`
 
-## Step 9:
+## Step 12:
 You need to reboot now, and you don't need to go into recovery mode anymore so just boot as you normally would.
 
 Run this command:
 
 `reboot`
 
-## Step 10:
+## Step 13:
 Check if ROCm is installed correctly. You should find your GPU name.
 
 Open the terminal and run this command:
 
 `rocminfo`
 
-## Step 11:
+## Step 14:
 Install the prerequisites.
 
 Run this command:
