@@ -16,6 +16,8 @@ Modified: **August 2nd, 2023.**
 ## Step 1:
 Install `Ubuntu 22.04.2 LTS`
 
+https://releases.ubuntu.com/jammy/
+
 ## Step 2:
 Open a terminal.
 
