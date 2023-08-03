@@ -1,5 +1,3 @@
-# This is a WIP. Please ignore for now.
-
 # Prerequisites:
 1. A spare USB stick with at least 12GB, but 16GB or more is best. This will make a USB which you can drop `.iso` files onto and boot them easily.
 2. Be running on Windows 10 (or know how to reinterpret this guide to work for your OS).
@@ -41,6 +39,9 @@ Put that ISO into your Ventoy USB. No folder or anything, just the main part of 
 
 # Step 10:
 Reboot into your USB. The steps vary dending on your motherboard, so you'll have to look up what steps to take to get into your `Boot Menu`.
+
+# Step 11:
+Select `ubuntu-22.04.2-desktop-amd64`
 
 # Step 11:
 Select `Try or Install Ubuntu`
