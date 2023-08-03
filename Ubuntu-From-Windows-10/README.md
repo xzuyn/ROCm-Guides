@@ -59,3 +59,6 @@ Have these selected:
 
 # Step 15:
 Continue with however you would like to install your Ubuntu. You're able to setup partions manually, or let Ubuntu handle it. This isn't the guide for this specifically yet so you'll need to look this info up yourself for now.
+
+# Step 16:
+You can now follow the Main Guide for setting up ROCm [here](..).
