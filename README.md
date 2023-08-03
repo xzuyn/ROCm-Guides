@@ -11,8 +11,6 @@ If you don't already have this stuff done, the other guides will be of ***no use
 - ODIN the GOAT
 - https://github.com/Kademo15
 
-This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
-
 Modified: **August 2nd, 2023.**
 
 ## Step 1:
