@@ -2,7 +2,7 @@
 1. A spare USB stick with at least 12GB, but 16GB or more is best. This will make a USB which you can drop `.iso` files onto and boot them easily.
 2. Be running on Windows 10 (or know how to reinterpret this guide to work for your OS).
 3. Somewhere you can install Ubuntu. You'll probably want at least 100-200GB at a *minimum* if you plan on using multiple AI tools. Especially if you want space for lots of models. I'd recommend adding as much space as you can.
-4. 7-Zip
+4. [7-Zip](https://www.7-zip.org/)
 
 ## Step 1:
 Find the latest release of Ventoy, and download the zip which has `-windows.zip` at the end.
