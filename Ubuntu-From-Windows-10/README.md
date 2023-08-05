@@ -6,7 +6,7 @@
 3. [7-Zip](https://www.7-zip.org/)
 
 ## Step 1:
-Find the latest release of Ventoy, and download the zip which has `-windows.zip` at the end. (Do Step 1-3 differently depending on if you use Linux as a base already)
+Find the latest release of Ventoy, and download the zip which has `-windows.zip` at the end. (Do Step 1-5 differently depending on if you use Linux as a base already)
 
 https://github.com/ventoy/Ventoy/releases
 
