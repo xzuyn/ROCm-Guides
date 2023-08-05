@@ -11,7 +11,6 @@ Modified: **August 4th, 2023.**
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](..).
 
-
 ## Step 1:
 Clone VLAD's fork of automatic1111.
 
