@@ -57,6 +57,7 @@ Run these commands:
 
 `accelerate config`
 
+## (Option 1) Step 6:
 Now answer like this:
 
 `This machine`
@@ -73,7 +74,7 @@ Now answer like this:
 
 `Do you wish to use FP16 or BF16 (mixed precision)? fp16`
 
-## (Option 1) Step 6:
+## (Option 1) Step 7:
 Now you can run kohya_ss.
 
 Run these commands:
@@ -123,6 +124,7 @@ Run these commands:
 
 `accelerate config`
 
+## (Option 1) Step 6:
 Now answer like this:
 
 `This machine`
@@ -139,7 +141,7 @@ Now answer like this:
 
 `Do you wish to use FP16 or BF16 (mixed precision)? fp16`
 
-## (Option 2) Step 6:
+## (Option 2) Step 7:
 Now you can run kohya_ss.
 
 Run these commands:
