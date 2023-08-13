@@ -6,16 +6,15 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **August 3rd, 2023.**
+Modified: **August 13th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](..).
 
-After you've completed that, this guide will have two options that fork out on step 5.
+Afterwards you can continue to installing kohya_ss using one of two methods. The first is simply installing with Python Wheels, but if that doesn't work for you, or for any other reason, you can manually compile PyTorch and TorchVision:
 
-The first you simply download PyTorch with ROCm 5.5 and use it.
-
-The second will guide you through manually building PyTorch with ROCm 5.6 yourself and using it.
+1. [(Fastest Setup Time) Python Wheel](#option-1-installing-using-python-wheels)
+2. [(Slowest Setup Time) Manually Compiling](#option-2-installing-by-manually-compiling)
 
 ## Step 1:
 Clone kohya_ss GUI, and enter it.
@@ -27,13 +26,11 @@ Run these commands:
 `cd kohya_ss`
 
 ## Step 2:
-Make a venv and activate it.
+Get the setup script.
 
-Run these commands:
+Run this command:
 
-`python3 -m venv venv`
-
-`source venv/bin/activate`
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/changes/kohya_ss/setup_rocm_venv_whl.sh`
 
 ## Step 3:
 Install requirements.
