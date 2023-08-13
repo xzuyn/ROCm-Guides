@@ -44,10 +44,6 @@ Run this command:
 ## Step 4:
 Run the setup script.
 
-You need to respond to the `Download the default model? (y/N)` input manually. This is personal preference.
-
-You will also need to kill the python script using CTRL + C once its loaded, and displays a URL like `Local URL: http://127.0.0.1:7860/`
-
 Run this command:
 
 `./setup_rocm_venv_whl.sh`
@@ -79,10 +75,6 @@ Run this command:
 
 ## Step 4:
 Run the setup script.
-
-You need to respond to the `Download the default model? (y/N)` input manually. This is personal preference.
-
-You will also need to kill the python script using CTRL + C once its loaded, and displays a URL like `Local URL: http://127.0.0.1:7860/`
 
 Run this command:
 
