@@ -92,4 +92,4 @@ else
 fi
 
 echo ""
-echo 'You can now run SD.Next any time by running the "./webui.sh" bash script'
+echo 'You can now follow the rest of the guide to configure accelerate'
