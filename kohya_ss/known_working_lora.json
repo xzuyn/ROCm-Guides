@@ -54,7 +54,7 @@
   "multires_noise_discount": 0,
   "multires_noise_iterations": 0,
   "network_alpha": 1,
-  "network_dim": 8,
+  "network_dim": 32,
   "network_dropout": 0,
   "no_token_padding": false,
   "noise_offset": 0,
