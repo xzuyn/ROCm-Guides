@@ -21,7 +21,7 @@ pip uninstall -y torch torchvision
 
 # Step 4/5: Installing the PyTorch and TorchVision we actually want
 echo ""
-echo "Step 5/5: Installing the PyTorch and TorchVision we actually want"
+echo "Step 4/5: Installing the PyTorch and TorchVision we actually want"
 echo ""
 pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.6
 
@@ -45,7 +45,4 @@ else
 fi
 
 echo ""
-echo 'You can now run kohya_ss any time by running these two commands:'
-echo ""
-echo 'First; activate the venv with: source venv/bin/activate'
-echo 'Second; run kohya_ss with: python kohya_gui.py "$@"'
+echo 'You can now follow the rest of the guide to configure accelerate'
