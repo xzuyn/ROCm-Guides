@@ -6,7 +6,7 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **August 12th, 2023.**
+Modified: **August 13th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](..).
@@ -32,7 +32,7 @@ Get the setup script.
 
 Run this command:
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/changes/VLAD_SD.Next/setup_rocm_venv_whl.sh`
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/VLAD_SD.Next/setup_rocm_venv_whl.sh`
 
 ## Step 3:
 Give the bash script permissions to run.
@@ -64,7 +64,7 @@ Get the setup script.
 
 Run this command:
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/changes/VLAD_SD.Next/setup_rocm_venv_build.sh`
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/VLAD_SD.Next/setup_rocm_venv_build.sh`
 
 ## Step 3:
 Give the bash script permissions to run.
