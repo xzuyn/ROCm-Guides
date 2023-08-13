@@ -21,7 +21,7 @@ pip uninstall -y torch torchvision
 
 # Step 4/5: Installing the PyTorch and TorchVision we actually want
 echo ""
-echo "Step 5/5: Installing the PyTorch and TorchVision we actually want"
+echo "Step 4/5: Installing the PyTorch and TorchVision we actually want"
 echo ""
 pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.6
 
