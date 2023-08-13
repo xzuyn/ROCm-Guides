@@ -45,5 +45,7 @@ else
 fi
 
 echo ""
-echo 'You can now run kohya_ss any time by running this command:'
-echo 'python kohya_gui.py "$@"'
+echo 'You can now run kohya_ss any time by running these two commands:'
+echo ""
+echo 'First; activate the venv with: source venv/bin/activate'
+echo 'Second; run kohya_ss with: python kohya_gui.py "$@"'
