@@ -14,9 +14,9 @@ echo ""
 python3 -m venv venv
 source venv/bin/activate
 
-# Step 3/6: Launching the Python script
+# Step 3/6: Launching the Python script (this will likely segfault, which is fine)
 echo ""
-echo "Step 3/6: Launching the Python script"
+echo "Step 3/6: Launching the Python script (this will likely segfault, which is fine)"
 echo ""
 python launch.py
 
