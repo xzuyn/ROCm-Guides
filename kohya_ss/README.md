@@ -32,7 +32,7 @@ Get the setup script.
 
 Run this command:
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/changes/kohya_ss/setup_rocm_venv_whl.sh`
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/kohya_ss/setup_rocm_venv_whl.sh`
 
 ## Step 3:
 Give the bash script permissions to run.
@@ -64,7 +64,7 @@ Get the setup script.
 
 Run this command:
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/VLAD_SD.Next/setup_rocm_venv_build.sh`
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/kohya_ss/setup_rocm_venv_build.sh`
 
 ## Step 3:
 Give the bash script permissions to run.
