@@ -77,6 +77,7 @@ Now answer like this:
 Now you can run kohya_ss.
 
 Run these commands:
+
 `source venv/bin/activate`
 
 `python kohya_gui.py "$@"`
@@ -142,6 +143,7 @@ Now answer like this:
 Now you can run kohya_ss.
 
 Run these commands:
+
 `source venv/bin/activate`
 
 `python kohya_gui.py "$@"`
