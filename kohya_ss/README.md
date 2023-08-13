@@ -48,6 +48,39 @@ Run this command:
 
 `./setup_rocm_venv_whl.sh`
 
+## Step 5:
+You now need configurate accelerate.
+
+Run these commands:
+
+`source venv/bin/activate`
+
+`accelerate config`
+
+Now answer like this:
+
+`This machine`
+
+`No distributed training`
+
+`Do you want to run your training on CPU only (even if a GPU / Apple Silicon device is available)? [yes/NO]: NO`
+
+`Do you wish to optimize your script with torch dynamo?[yes/NO]: NO`
+
+`Do you want to use DeepSpeed? [yes/NO]: NO`
+
+`What GPU(s) (by id) should be used for training on this machine as a comma-seperated list? [all]: all`
+
+`Do you wish to use FP16 or BF16 (mixed precision)? fp16`
+
+## Step 6:
+Now you can run kohya_ss.
+
+Run these commands:
+`source venv/bin/activate`
+
+`python kohya_gui.py "$@"`
+
 # (Option 2) Installing By Manually Compiling
 
 ## Step 1:
@@ -79,6 +112,39 @@ Run the setup script.
 Run this command:
 
 `./setup_rocm_venv_build.sh`
+
+## Step 5:
+You now need configurate accelerate.
+
+Run these commands:
+
+`source venv/bin/activate`
+
+`accelerate config`
+
+Now answer like this:
+
+`This machine`
+
+`No distributed training`
+
+`Do you want to run your training on CPU only (even if a GPU / Apple Silicon device is available)? [yes/NO]: NO`
+
+`Do you wish to optimize your script with torch dynamo?[yes/NO]: NO`
+
+`Do you want to use DeepSpeed? [yes/NO]: NO`
+
+`What GPU(s) (by id) should be used for training on this machine as a comma-seperated list? [all]: all`
+
+`Do you wish to use FP16 or BF16 (mixed precision)? fp16`
+
+## Step 6:
+Now you can run kohya_ss.
+
+Run these commands:
+`source venv/bin/activate`
+
+`python kohya_gui.py "$@"`
 
 ## Notes:
 Some features don't work.
