@@ -18,7 +18,7 @@ Afterwards you can continue to installing kohya_ss using one of two methods. The
 
 # (Option 1) Installing Using Python Wheels
 
-## Step 1:
+## (Option 1) Step 1:
 Clone kohya_ss GUI, and enter it.
 
 Run these commands:
@@ -27,28 +27,28 @@ Run these commands:
 
 `cd kohya_ss`
 
-## Step 2:
+## (Option 1) Step 2:
 Get the setup script.
 
 Run this command:
 
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/kohya_ss/setup_rocm_venv_whl.sh`
 
-## Step 3:
+## (Option 1) Step 3:
 Give the bash script permissions to run.
 
 Run this command:
 
 `chmod +x setup_rocm_venv_whl.sh`
 
-## Step 4:
+## (Option 1) Step 4:
 Run the setup script.
 
 Run this command:
 
 `./setup_rocm_venv_whl.sh`
 
-## Step 5:
+## (Option 1) Step 5:
 You now need configurate accelerate.
 
 Run these commands:
@@ -73,7 +73,7 @@ Now answer like this:
 
 `Do you wish to use FP16 or BF16 (mixed precision)? fp16`
 
-## Step 6:
+## (Option 1) Step 6:
 Now you can run kohya_ss.
 
 Run these commands:
@@ -83,7 +83,7 @@ Run these commands:
 
 # (Option 2) Installing By Manually Compiling
 
-## Step 1:
+## (Option 2) Step 1:
 Clone kohya_ss GUI, and enter it.
 
 Run these commands:
@@ -92,28 +92,28 @@ Run these commands:
 
 `cd kohya_ss`
 
-## Step 2:
+## (Option 2) Step 2:
 Get the setup script.
 
 Run this command:
 
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/kohya_ss/setup_rocm_venv_build.sh`
 
-## Step 3:
+## (Option 2) Step 3:
 Give the bash script permissions to run.
 
 Run this command:
 
 `chmod +x setup_rocm_venv_build.sh`
 
-## Step 4:
+## (Option 2) Step 4:
 Run the setup script.
 
 Run this command:
 
 `./setup_rocm_venv_build.sh`
 
-## Step 5:
+## (Option 2) Step 5:
 You now need configurate accelerate.
 
 Run these commands:
@@ -138,7 +138,7 @@ Now answer like this:
 
 `Do you wish to use FP16 or BF16 (mixed precision)? fp16`
 
-## Step 6:
+## (Option 2) Step 6:
 Now you can run kohya_ss.
 
 Run these commands:
