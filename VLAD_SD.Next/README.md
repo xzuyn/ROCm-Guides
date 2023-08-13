@@ -16,7 +16,7 @@ Afterwards you can continue to installing SD.Next using one of two methods. The 
 1. [(Fastest Setup Time) Python Wheel](#installing-using-python-wheels)
 2. [(Slowest Setup Time) Manually Compiling](#installing-by-manually-compiling)
 
-# Installing Using Python Wheels
+# (Option 1) Installing Using Python Wheels
 
 ## Step 1:
 Clone the SD.Next repo.
@@ -48,7 +48,7 @@ Run this command:
 
 `./setup_rocm_venv_whl.sh`
 
-# Installing By Manually Compiling
+# (Option 2) Installing By Manually Compiling
 
 ## Step 1:
 Clone the SD.Next repo.
