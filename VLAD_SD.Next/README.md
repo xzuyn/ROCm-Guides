@@ -18,7 +18,7 @@ Afterwards you can continue to installing SD.Next using one of two methods. The 
 
 # (Option 1) Installing Using Python Wheels
 
-## Step 1:
+## (Option 1) Step 1:
 Clone the SD.Next repo.
 
 Run these commands:
@@ -27,21 +27,21 @@ Run these commands:
 
 `cd automatic`
 
-## Step 2:
+## (Option 1) Step 2:
 Get the setup script.
 
 Run this command:
 
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/VLAD_SD.Next/setup_rocm_venv_whl.sh`
 
-## Step 3:
+## (Option 1) Step 3:
 Give the bash script permissions to run.
 
 Run this command:
 
 `chmod +x setup_rocm_venv_whl.sh`
 
-## Step 4:
+## (Option 1) Step 4:
 Run the setup script.
 
 Run this command:
@@ -50,7 +50,7 @@ Run this command:
 
 # (Option 2) Installing By Manually Compiling
 
-## Step 1:
+## (Option 2) Step 1:
 Clone the SD.Next repo.
 
 Run these commands:
@@ -59,21 +59,21 @@ Run these commands:
 
 `cd automatic`
 
-## Step 2:
+## (Option 2) Step 2:
 Get the setup script.
 
 Run this command:
 
 `wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/VLAD_SD.Next/setup_rocm_venv_build.sh`
 
-## Step 3:
+## (Option 2) Step 3:
 Give the bash script permissions to run.
 
 Run this command:
 
 `chmod +x setup_rocm_venv_build.sh`
 
-## Step 4:
+## (Option 2) Step 4:
 Run the setup script.
 
 Run this command:
