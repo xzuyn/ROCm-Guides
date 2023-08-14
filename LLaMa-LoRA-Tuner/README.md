@@ -69,8 +69,6 @@ Run this command:
 `./run_llama-lora-tuner.sh`
 
 ## Note:
-- You will get errors and complaints about bitsandbytes and CUDA. You can ignore these.
-
 - If a model complains about not having a padding token, follow this; https://github.com/zetavg/LLaMA-LoRA-Tuner/discussions/29
 
 - Some good small models to start with are; `openlm-research/open_llama_3b_v2` or `meta-llama/Llama-2-7b-hf`
