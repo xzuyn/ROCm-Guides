@@ -1,33 +1,57 @@
 #!/bin/bash
 
-# Step 1/5: Creating and activating a Python virtual environment
+# Step 1/8: Creating and activating a Python virtual environment
 echo ""
-echo "Step 1/5: Creating and activating a Python virtual environment"
+echo "Step 1/8: Creating and activating a Python virtual environment"
 echo ""
 python3 -m venv venv
 source venv/bin/activate
 
-# Step 2/5: Installing requirements
+# Step 2/8: Installing requirements
 echo ""
-echo "Step 2/5: Installing requirements"
+echo "Step 2/8: Installing requirements"
 echo ""
 pip install --use-pep517 -r requirements.txt
 
-# Step 3/5: Removing unwanted PyTorch and TorchVision installations
+# Step 3/8: Removing unwanted PyTorch and TorchVision installations
 echo ""
-echo "Step 3/5: Removing unwanted PyTorch and TorchVision installations"
+echo "Step 3/8: Removing unwanted PyTorch and TorchVision installations"
 echo ""
 pip uninstall -y torch torchvision
 
-# Step 4/5: Installing the PyTorch and TorchVision we actually want
+# Step 4/8: Installing the PyTorch and TorchVision we actually want
 echo ""
-echo "Step 4/5: Installing the PyTorch and TorchVision we actually want"
+echo "Step 4/8: Installing the PyTorch and TorchVision we actually want"
 echo ""
 pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.6
 
-# Step 5/5: Configuring environment variables
+# Step 5/8: Removing unwanted bitsandbytes installation
 echo ""
-echo "Step 5/5: Configuring environment variables"
+echo "Step 5/8: Removing unwanted bitsandbytes installation"
+echo ""
+pip uninstall bitsandbytes
+
+# Step 6/8: Cloning the bitsandbytes-rocm fork repo
+echo ""
+echo "Step 6/8: Cloning the bitsandbytes-rocm fork repo"
+echo ""
+cd venv
+git clone https://github.com/arlo-phoenix/bitsandbytes-rocm-5.6.git bitsandbytes
+cd bitsandbytes
+
+# Step 7/8: Installing bitsandbytes-rocm
+echo ""
+echo "Step 7/8: Installing bitsandbytes-rocm"
+echo ""
+export ROCM_HOME=/opt/rocm-5.6.0
+make hip ROCM_TARGET=gfx1100
+pip install .
+cd ..
+cd ..
+
+# Step 8/8: Configuring environment variables
+echo ""
+echo "Step 8/8: Configuring environment variables"
 echo ""
 
 # Check if .bashrc exists, if not, create one
