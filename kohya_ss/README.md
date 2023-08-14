@@ -153,6 +153,6 @@ Run these commands:
 ## Notes:
 Some features don't work.
 
-Disable `xformers`, and change the optimizer to something other than `AdamW8bit`. I chose `AdamW`.
+Disable `xformers` as it doesn't work.
 
 I've included a [known working config](https://github.com/xzuyn/ROCm-Guides/blob/main/kohya_ss/known_working_lora.json) for a LoRA. It runs on my 7900 XTX using ROCm 5.6.5.
