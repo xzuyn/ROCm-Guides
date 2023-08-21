@@ -46,6 +46,7 @@ echo ""
 export ROCM_HOME=/opt/rocm-5.6.0
 make hip ROCM_TARGET=gfx1100
 pip install .
+pip install scipy
 cd ..
 cd ..
 
