@@ -6,7 +6,7 @@
 
 This is not the original guide. It has been modified to add more steps that *I* had to run. Some steps may not be required, but shouldn't cause any issues.
 
-Modified: **August 3rd, 2023.**
+Modified: **August 14th, 2023.**
 
 ## Step 0:
 If you don't already have your system setup with the correct drivers, kernels, etc, please follow the Main Guide [README.md](..).
@@ -69,8 +69,6 @@ Run this command:
 `./run_llama-lora-tuner.sh`
 
 ## Note:
-- You will get errors and complaints about bitsandbytes and CUDA. You can ignore these.
-
 - If a model complains about not having a padding token, follow this; https://github.com/zetavg/LLaMA-LoRA-Tuner/discussions/29
 
 - Some good small models to start with are; `openlm-research/open_llama_3b_v2` or `meta-llama/Llama-2-7b-hf`
