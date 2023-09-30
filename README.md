@@ -1,8 +1,8 @@
-# THIS IS A TUTORIAL/INSTALL GUIDE FOR ROCM 5.6 ON RDNA3 GPUS. IT WILL NOT WORK WITH OLDER MODELS.
+# THIS IS A TUTORIAL/INSTALL GUIDE FOR ROCM 5.7 ON RDNA3 GPUS. IT WILL NOT WORK WITH OLDER MODELS.
 ## Main Guide
 This is the main README guide. This will get you set up to be able to follow the other guides.
 
-It will get you the correct graphics drivers and **ROCm 5.6**.
+It will get you the correct graphics drivers and **ROCm 5.7**.
 
 If you don't already have this stuff done, the other guides will be of ***no use to you*** as they ***won't work***.
 
