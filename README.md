@@ -25,6 +25,7 @@ Run the Software Updater
 
 ## Step 3:
 Install any pending updates.
+
 `sudo apt-get update`
 
 `sudo apt-get dist-upgrade`
