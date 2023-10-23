@@ -32,14 +32,14 @@ Install any pending updates.
 ## Step 4:
 Reboot if it asks.
 
-## Step 8:
+## Step 5:
 You need to add yourself to render and video.
 
 Run this command:
 
 `sudo usermod -aG video,render $LOGNAME`
 
-## Step 9:
+## Step 6:
 Make sure AMDGPU is uninstalled.
 
 Run these commands:
@@ -48,14 +48,14 @@ Run these commands:
 
 `sudo apt-get purge amdgpu-install`
 
-## Step 10:
+## Step 7:
 Download the latest drivers.
 
 Run this command:
 
 `wget https://repo.radeon.com/amdgpu-install/23.20.00.48/ubuntu/jammy/amdgpu-install_5.7.00.48.50700-1_all.deb`
 
-## Step 11:
+## Step 8:
 Now install AMDGPU.
 
 Run these commands:
@@ -64,14 +64,14 @@ Run these commands:
 
 `amdgpu-install -y --usecase=graphics,rocm`
 
-## Step 12:
+## Step 9:
 You need to reboot now. 
 
 Run this command:
 
 `reboot`
 
-## Step 13:
+## Step 10:
 Check if ROCm is installed correctly.
 
 Open the terminal and run this command:
@@ -98,7 +98,7 @@ Agent 2
   Vendor Name:             AMD
 ```
 
-## Step 14:
+## Step 11:
 Install the prerequisites.
 
 Run this command:
