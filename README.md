@@ -11,7 +11,7 @@ If you don't already have this stuff done, the other guides will be of ***no use
 - ODIN the GOAT
 - https://github.com/Kademo15
 
-Modified: **October 23rd, 2023.**
+Modified: **October 24th, 2023.**
 
 ## Step 1:
 Install `Ubuntu® 22.04.3 LTS`
