@@ -54,16 +54,16 @@ Download the latest drivers.
 
 Run this command:
 
-`wget https://repo.radeon.com/amdgpu-install/23.20.00.48/ubuntu/jammy/amdgpu-install_5.7.00.48.50700-1_all.deb`
+`wget https://repo.radeon.com/amdgpu-install/23.20/ubuntu/jammy/amdgpu-install_5.7.50700-1_all.deb`
 
 ## Step 8:
 Now install AMDGPU.
 
 Run these commands:
 
-`sudo apt install ./amdgpu-install_5.7.00.48.50700-1_all.deb`
+`sudo apt install ./amdgpu-install_5.7.50700-1_all.deb`
 
-`amdgpu-install -y --usecase=graphics,rocm`
+`amdgpu-install -y --usecase=graphics,rocm,hip`
 
 ## Step 9:
 You need to reboot now. 
