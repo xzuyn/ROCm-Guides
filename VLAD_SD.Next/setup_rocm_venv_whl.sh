@@ -30,7 +30,7 @@ pip uninstall -y torch torchvision
 echo ""
 echo "Step 5/6: Installing the PyTorch and TorchVision we actually want"
 echo ""
-pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.6
+pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.7
 
 # Step 6/6: Configuring environment variables
 echo ""
