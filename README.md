@@ -2,7 +2,7 @@
 ## Main Guide
 This is the main README guide. This will get you set up to be able to follow the other guides.
 
-It will get you the correct graphics drivers and **ROCm 5.7**.
+It will get you the correct graphics drivers and **ROCm 6.0**.
 
 If you don't already have this stuff done, the other guides will be of ***no use to you*** as they ***won't work***.
 
@@ -54,14 +54,14 @@ Download the latest drivers.
 
 Run this command:
 
-`wget https://repo.radeon.com/amdgpu-install/23.20/ubuntu/jammy/amdgpu-install_5.7.50700-1_all.deb`
+`wget https://repo.radeon.com/amdgpu-install/6.0/ubuntu/jammy/amdgpu-install_6.0.60000-1_all.deb`
 
 ## Step 8:
 Now install AMDGPU.
 
 Run these commands:
 
-`sudo apt install ./amdgpu-install_5.7.50700-1_all.deb`
+`sudo apt install ./amdgpu-install_6.0.60000-1_all.deb`
 
 `amdgpu-install -y --usecase=graphics,rocm,hip`
 
