@@ -88,7 +88,7 @@ cd bitsandbytes
 echo ""
 echo "Step 13/14: Installing bitsandbytes-rocm"
 echo ""
-export ROCM_HOME=/opt/rocm-5.6.0
+export ROCM_HOME=/opt/rocm-6.0.0
 make hip ROCM_TARGET=gfx1100
 pip install .
 pip install scipy
