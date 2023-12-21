@@ -23,7 +23,7 @@ pip uninstall -y torch torchvision
 echo ""
 echo "Step 4/8: Installing the PyTorch and TorchVision we actually want"
 echo ""
-pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.6
+pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm5.7
 
 # Step 5/8: Removing unwanted bitsandbytes installation
 echo ""
@@ -43,7 +43,7 @@ cd bitsandbytes
 echo ""
 echo "Step 7/8: Installing bitsandbytes-rocm"
 echo ""
-export ROCM_HOME=/opt/rocm-5.6.0
+export ROCM_HOME=/opt/rocm-5.7.3
 make hip ROCM_TARGET=gfx1100
 pip install .
 pip install scipy

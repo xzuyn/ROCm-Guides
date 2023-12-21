@@ -11,7 +11,7 @@ If you don't already have this stuff done, the other guides will be of ***no use
 - ODIN the GOAT
 - https://github.com/Kademo15
 
-Modified: **October 24th, 2023.**
+Modified: **December 18th, 2023.**
 
 ## Step 1:
 Install `Ubuntu® 22.04.3 LTS`
@@ -54,14 +54,14 @@ Download the latest drivers.
 
 Run this command:
 
-`wget https://repo.radeon.com/amdgpu-install/23.20/ubuntu/jammy/amdgpu-install_5.7.50700-1_all.deb`
+`wget https://repo.radeon.com/amdgpu-install/5.7.3/ubuntu/jammy/amdgpu-install_5.7.50703-1_all.deb`
 
 ## Step 8:
 Now install AMDGPU.
 
 Run these commands:
 
-`sudo apt install ./amdgpu-install_5.7.50700-1_all.deb`
+`sudo apt install ./amdgpu-install_5.7.50703-1_all.deb`
 
 `amdgpu-install -y --usecase=graphics,rocm,hip`
 
