@@ -14,7 +14,7 @@ If you don't already have your system setup with the correct drivers, kernels, e
 # Installing Using Python Wheels
 
 ## Step 1:
-Clone the SD.Next repo.
+Clone the ComfyUI repo.
 
 Run these commands:
 
