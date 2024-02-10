@@ -58,7 +58,7 @@ python tools/amd_build/build_amd.py
 echo ""
 echo "Step 9/12: Building the AMD-specific parts of PyTorch"
 echo ""
-cmake_p_p=$(python -c "import site; print(site.getsitepackages()[0])")
+cmake_p_p=$(python3 -c "import site; print(site.getsitepackages()[0])")
 export CMAKE_PREFIX_PATH="$cmake_p_p"
 BUILD_TEST=0 USE_CUDA=0 USE_CUDNN=0 USE_ROCM=1 PYTORCH_ROCM_ARCH=gfx1100 USE_MKLDNN=0 python setup.py develop
 export HIP_VISIBLE_DEVICES=0
