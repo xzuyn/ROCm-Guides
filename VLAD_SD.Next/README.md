@@ -48,6 +48,8 @@ Run this command:
 
 `./setup_rocm_venv_whl.sh`
 
+After you see Local URL: http://127.0.0.1 press ctrl + c for the script to continue
+
 ## (Option 1) Step 5:
 Your installation is now finished and you can run SD.Next with its included bash script.
 
@@ -86,6 +88,8 @@ Run the setup script.
 Run this command:
 
 `./setup_rocm_venv_build.sh`
+
+After you see Local URL: http://127.0.0.1 press ctrl + c for the script to continue
 
 ## (Option 2) Step 5:
 Your installation is now finished and you can run SD.Next with its included bash script.
