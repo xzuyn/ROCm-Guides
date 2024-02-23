@@ -44,8 +44,8 @@ source venv/bin/activate
 echo ""
 echo "Step 5/6: Installing the right PyTorch and TorchVision versions and other requirements"
 echo ""
-pip install -r requirements.txt
 pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm6.0
+pip install -r requirements.txt
 
 # Step 6/6: Launching the Python script
 echo ""
