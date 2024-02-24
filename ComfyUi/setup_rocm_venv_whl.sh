@@ -53,4 +53,5 @@ echo "Step 6/6: Launching the Python script"
 echo 'You can now run ComfyUI any time by following step 4 in the README file'
 echo ""
 wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/ComfyUi/comfyUI.sh
+chmod +x comfyUI.sh
 python main.py
