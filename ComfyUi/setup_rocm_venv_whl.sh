@@ -47,9 +47,10 @@ echo ""
 pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/rocm6.0
 pip install -r requirements.txt
 
-# Step 6/6: Launching the Python script
+# Step 6/6: Launching the Python script and installing a one click launcher
 echo ""
 echo "Step 6/6: Launching the Python script"
 echo 'You can now run ComfyUI any time by following step 4 in the README file'
 echo ""
+wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/ComfyUi/comfyUI.sh
 python main.py
