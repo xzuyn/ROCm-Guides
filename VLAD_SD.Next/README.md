@@ -13,7 +13,7 @@ If you don't already have your system setup with the correct drivers, kernels, e
 
 Afterwards you can continue to installing SD.Next using one of two methods. The first is simply installing with Python Wheels, but if that doesn't work for you, or for any other reason, you can manually compile PyTorch and TorchVision:
 
-1. [(Fastest Setup Time) Python Wheel](#option-1-installing-using-python-wheels)
+1. [(Fastest Setup Time and recommened) Python Wheel](#option-1-installing-using-python-wheels)
 2. [(Slowest Setup Time) Manually Compiling](#option-2-installing-by-manually-compiling)
 
 # (Option 1) Installing Using Python Wheels
