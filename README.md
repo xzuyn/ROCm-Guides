@@ -54,14 +54,14 @@ Download the latest drivers.
 
 Run this command:
 
-`wget https://repo.radeon.com/amdgpu-install/5.7.3/ubuntu/jammy/amdgpu-install_5.7.50703-1_all.deb`
+`wget https://repo.radeon.com/amdgpu-install/6.0.2/ubuntu/jammy/amdgpu-install_6.0.60002-1_all.deb`
 
 ## Step 8:
 Now install AMDGPU.
 
 Run these commands:
 
-`sudo apt install ./amdgpu-install_5.7.50703-1_all.deb`
+`sudo apt install ./amdgpu-install_6.0.60002-1_all.deb`
 
 `amdgpu-install -y --usecase=graphics,rocm,hip`
 
