@@ -5,17 +5,26 @@ echo ""
 echo "Step 1/6: Configuring environment variables"
 echo ""
 
+# Get the GFX version
+GFX_VERSION=$(rocminfo | awk '/Marketing Name:/ && $0 ~ /Radeon RX/ {print substr(prev, index(prev, "gfx"))} {prev=prevprev; prevprev=$0}')
+
+# Extract the numeric part and format it
+GFX_VERSION_FORMATTED=$(echo "$GFX_VERSION" | sed 's/gfx\([0-9]\{2\}\)\([0-9]\)\([0-9]\)/\1.\2.\3/')
+
+# Print GFX_VERSION_FORMATTED to the console
+echo "$GFX_VERSION_FORMATTED"
+
 # Check if .bashrc exists, if not, create one
 if [ ! -e ~/.bashrc ]; then
     touch ~/.bashrc
 fi
 
-# Check if HSA_OVERRIDE_GFX_VERSION is already set
-if grep -q "HSA_OVERRIDE_GFX_VERSION=11.0.0" ~/.bashrc; then
+# Check if HSA_OVERRIDE_GFX_VERSION is already set to the GFX version
+if grep -q "export HSA_OVERRIDE_GFX_VERSION=$GFX_VERSION_FORMATTED" ~/.bashrc; then
     echo "HSA_OVERRIDE_GFX_VERSION is already set in .bashrc"
 else
     echo "Adding HSA_OVERRIDE_GFX_VERSION to .bashrc..."
-    echo "export HSA_OVERRIDE_GFX_VERSION=11.0.0" >> ~/.bashrc
+    echo "export HSA_OVERRIDE_GFX_VERSION=$GFX_VERSION_FORMATTED" >> ~/.bashrc
     echo "HSA_OVERRIDE_GFX_VERSION added to .bashrc"
 fi
 
