@@ -20,7 +20,7 @@ Get the setup script.
 
 Run this command:
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/main/ComfyUi/setup_rocm_venv_whl.sh`
+`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/develop/ComfyUi/setup_rocm_venv_whl.sh`
 
 ## Step 2:
 Give the bash script permissions to run.
