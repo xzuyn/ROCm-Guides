@@ -1,16 +1,16 @@
 @echo off
 
-REM Create the "SD-Zluda" folder
-mkdir "SD-Zluda"
+REM Create the "SD" folder
+mkdir "SD"
 
-REM Change directory to "SD-Zluda"
-cd "SD-Zluda"
+REM Change directory to "SD"
+cd "SD"
 
 REM Download the latest release zip file of Zluda and save its name
 for /f "delims=" %%i in ('powershell -Command "$latestRelease = Invoke-RestMethod -Uri https://api.github.com/repos/lshqqytiger/ZLUDA/releases/latest; $asset = $latestRelease.assets | Where-Object { $_.name -like '*.zip' } | Select-Object -First 1; Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $asset.name; Write-Output $asset.name"') do set "fileName=%%i"
 
 REM Extract the downloaded zip file
-powershell -Command "$folderName = [System.IO.Path]::GetFileNameWithoutExtension('%fileName%'); Expand-Archive -Path '%fileName%' -DestinationPath $folderName"
+powershell -Command "$folderName = [System.IO.Path]::GetFileNameWithoutExtension('%fileName%'); Expand-Archive -Path '%fileName%' -DestinationPath 'ZLUDA'"
 
 REM Delete the zip file
 powershell -Command "Remove-Item -Path '%fileName%'"
