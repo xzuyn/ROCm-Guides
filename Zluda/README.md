@@ -2,7 +2,6 @@
 
 ## Prerequisites
 - Install AMD HIP SDK 5.7 from here: https://www.amd.com/en/developer/resources/rocm-hub/hip-sdk.html
-- Add the C:\ZLUDA folder and %HIP_PATH%bin to your PATH in the System Variables. Like shown here: https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows
 - If your GPU is below a RX 6800, you need to to the following steps mentioned here: (Without installing SD.next) https://github.com/vladmandic/automatic/wiki/ZLUDA#replace-hip-sdk-library-files-for-gpu-architectures-gfx1031-and-gfx1032
 
 ### Step 1
