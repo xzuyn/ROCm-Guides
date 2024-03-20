@@ -20,7 +20,7 @@ Run the setup script.
 
 Run this command:
 
-`zluda_setup.bat`
+`.\zluda_setup.bat`
 
 ### Step4:
 The install is complete and you can start the webui as normal with the webui-user.bat file.
