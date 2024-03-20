@@ -6,7 +6,7 @@
 - If your GPU is below a RX 6800, you need to to the following steps mentioned here: (Without installing SD.next) https://github.com/vladmandic/automatic/wiki/ZLUDA#replace-hip-sdk-library-files-for-gpu-architectures-gfx1031-and-gfx1032
 
 ### Step 1
-Go to the folder where you want your Zluda install to be, right click empty space inside the folder and select **Open in Terminal**
+Go to a main directory (D:, C:, F:, ...) where you want your Zluda install to be, right click empty space inside the folder and select **Open in Terminal**
 
 ### Step 2
 Get the setup script.
