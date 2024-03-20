@@ -23,5 +23,6 @@ Run this command:
 
 ### Step4:
 The install is complete and you can start the webui as normal with the webui-user.bat file.
+The first ever generation might take a while so dont quit unless you get an error
 
 Modified: **March 20, 2024**
