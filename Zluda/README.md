@@ -13,7 +13,7 @@ Get the setup script.
 
 Run this command:
 
-`wget https://raw.githubusercontent.com/xzuyn/ROCm-Guides/develop/Zluda/zluda_setup.bat`
+`Invoke-WebRequest -Uri https://raw.githubusercontent.com/xzuyn/ROCm-Guides/develop/Zluda/zluda_setup.bat -OutFile zluda_setup.bat`
 
 ### Step 3:
 Run the setup script.
