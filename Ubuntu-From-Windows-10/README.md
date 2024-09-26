@@ -31,7 +31,7 @@ After you've verified that its finished installing you may have to unplug and pl
 There may be 2 new drives in Windows Explorer. If that's the case, one probably won't work. Ignore that and go into the one that works.
 
 ## Step 8:
-Download `Ubuntu 22.04.3 LTS` Desktop Image ISO.
+Download `Ubuntu 22.04 LTS` Desktop Image ISO.
 
 https://releases.ubuntu.com/jammy/
 
