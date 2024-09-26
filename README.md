@@ -13,7 +13,7 @@ In this guide we will use the 22.04 version of Ubuntu.
 - ODIN the GOAT
 - https://github.com/Kademo15
 
-Modified: **December 18th, 2023.**
+Modified: **September 26th, 2024.**
 
 ## Step 1:
 Install `Ubuntu® 22.04 LTS`
@@ -25,9 +25,10 @@ A more in-depth guide can be found [here](/Ubuntu-From-Windows-10/)
 ## Step 2:
 Install any pending updates.
 
-`sudo apt-get update`
-
-`sudo apt-get dist-upgrade`
+```
+sudo apt-get update
+sudo apt-get dist-upgrade
+```
 
 ## Step 3:
 Reboot if it asks.
@@ -44,39 +45,35 @@ Make sure AMDGPU is uninstalled.
 
 Run these commands:
 
-`amdgpu-uninstall`
-
-`sudo apt-get purge amdgpu-install`
+```
+amdgpu-uninstall
+sudo apt-get purge amdgpu-install
+```
 
 If this is a new system this step can be skipped.
 
 ## Step 6:
-Download the latest drivers.
-
-Run this command:
-
-`wget https://repo.radeon.com/amdgpu-install/6.0.2/ubuntu/jammy/amdgpu-install_6.0.60002-1_all.deb`
-
-## Step 7:
 Now install the rocm software stack.
 
 Run these commands:
 
-`wget https://repo.radeon.com/amdgpu-install/6.2.1/ubuntu/jammy/amdgpu-install_6.2.60201-1_all.deb
+```
+wget https://repo.radeon.com/amdgpu-install/6.2.1/ubuntu/jammy/amdgpu-install_6.2.60201-1_all.deb
 sudo apt install ./amdgpu-install_6.2.60201-1_all.deb
 sudo apt update
-sudo apt install amdgpu-dkms rocm`
+sudo apt install amdgpu-dkms rocm
+```
 
 `amdgpu-install -y --usecase=graphics,rocm,hip`
 
-## Step 8:
+## Step 7:
 You need to reboot now. 
 
 Run this command:
 
 `reboot`
 
-## Step 9:
+## Step 8:
 Check if ROCm is installed correctly.
 
 Open the terminal and run this command:
@@ -103,14 +100,14 @@ Agent 2
   Vendor Name:             AMD
 ```
 
-## Step 10:
+## Step 9:
 Install the prerequisites.
 
 Run this command:
 
 `sudo apt install git python3-dev python3-venv libjpeg-dev libpng-dev libstdc++-12-dev cmake`
 
-## Step 11:
+## Step 10:
 Enjoy. You can now follow the other guides in this repo. Just open the folder which has the name of the program you are trying to set up, and read its README.
 
 For example, you can set up VLAD's fork of automatic1111 by following [this guide.](https://github.com/xzuyn/ROCm-Guides/tree/main/VLAD_SD.Next)
